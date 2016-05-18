@@ -1,4 +1,4 @@
-```FROM hypriot/rpi-alpine-scratch
+FROM hypriot/rpi-alpine-scratch
 MAINTAINER Etopian Inc. <contact@etopian.com>
 
 LABEL   devoply.type="site" \
@@ -43,4 +43,4 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli
 EXPOSE 80
 VOLUME ["/DATA"]
 
-CMD ["/run.sh"]```
+CMD ["/run.sh"]
